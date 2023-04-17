@@ -1,14 +1,6 @@
 <div>
     Your payment of {{{ amount }}} {{{ currency }}} was successful. You can manage your subscription <a
         href="http://{{{ account.domain }}}">here</a>.
-    <br /><br />
-    {{#if gasFee}}
-    Gas fee: {{{ gasFee }}} Gwei
-    {{/if}}
-    <br />
+    <br /><br /><br />
     Your license key: {{{ license }}}
-    <br />
-    {{#if transaction}}
-    Your transaction hash: <a href="https://etherscan.io/tx/{{{ transaction }}}">{{{ transaction }}}</a>
-    {{/if}}
 </div>
